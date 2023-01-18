@@ -58,7 +58,7 @@ nav #Qs {
   font-family: arial;
 }
 .card img {
-  width: 90%;
+  width: 100%;
   height: 250px;
 }
 
@@ -86,8 +86,8 @@ nav #Qs {
 .modal-container {
   width: 80%;
   margin: 0 10%;
-  color: rgb(0, 0, 0);
-  background-color: #362a2a;
+  color: rgb(255, 255, 255);
+  background-color: #292727;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -142,14 +142,15 @@ nav #Qs {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 50%;
+  width: 70%;
   margin: 10px;
+  background-color: #0a0909;
 }
 
 .modal-container > div > img {
   height: 120px;
   width: 120px;
-  background-color: #362a2a;
+  background-color: #0a0909;
 }
 
 .total-content {
@@ -157,4 +158,27 @@ nav #Qs {
   padding: 20px;
   text-align: center;
   padding-top: 20px;
+}
+
+.delete-product {
+  cursor: pointer;
+}
+
+.cantidad-carrito {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 4px;
+  top: 37px;
+  right: absolute;
+  display: none;
+}
+
+.sumar {
+  cursor: pointer;
+}
+
+.restar {
+  cursor: pointer;
 }
